@@ -42,7 +42,7 @@ namespace CalcTests
             input[1] = Op(Token.Value, 5);
             input[5] = Op(Token.Mult, 1, 6);
             input[6] = Op(Token.Value, 3);
-            var result = Calculator.Calculate(input);
+            var result = Calculator.Calculate2(input);
             Assert.That(result, Is.EqualTo(20));
         }
 
